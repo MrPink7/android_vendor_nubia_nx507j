@@ -21,8 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/perfd:system/bin/perfd \
     vendor/nubia/nx507j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx507j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/nubia/nx505j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
+    vendor/nubia/nx507j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
     vendor/nubia/nx507j/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/nubia/nx507j/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
+    vendor/nubia/nx507j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
     vendor/nubia/nx507j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/nx507j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/nubia/nx507j/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -509,7 +511,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/nubia/nx507j/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
